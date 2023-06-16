@@ -2,8 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;700&display=swap');
+
+body {
+  font-family:'Geologica'
+
+};
+
 @layer components{
   .btn{
-    @apply py-2 px-4 bg-emerald-500 rounded-xl
+    @apply text-lg h-[60px] px-[30px] rounded-full transition text-white
+  }
+  .btn-primary{
+    @apply bg-blue-500 hover:bg-blue-400
+  }
+  h1{
+    @apply font-bold text-[40px] xl:text-[80px] leading-[1.1]; 
   }
 }
+
