@@ -5,7 +5,7 @@ import { heroData } from '../data';
 const Hero = () => {
   const {title, subtitle, btnText, image} = heroData;
   return (
-    <section className=' lg:h-[900px] py-12'>
+    <section className=' lg:h-[900px] py-12 min-w-[320px] w-full'>
       <Header />
       <div className=' container mx-auto h-full relative'>
         <div className=' flex flex-col xl:flex-row items-center h-full md:py-24'>

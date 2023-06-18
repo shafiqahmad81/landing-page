@@ -14,7 +14,10 @@ body {
     @apply text-lg h-[60px] px-[30px] rounded-full transition text-white
   }
   .btn-primary{
-    @apply bg-blue-500 hover:bg-blue-400
+    @apply bg-blue-700 hover:bg-blue-400
+  }
+  .btn-quentary{
+    @apply bg-gray-100 hover:bg-blue-400 text-slate-700 hover:text-white
   }
   h1{
     @apply font-bold text-[40px] xl:text-[80px] leading-[1.1]; 
