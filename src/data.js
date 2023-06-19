@@ -1,6 +1,24 @@
-import HandImage from '../src/assets/img/hand.png';
+import AboutImage from '../src/assets/img/computer.jpg';
 import ShopingImage from '../src/assets/img/shoping.png';
 
+export const NavicationData = [
+  {
+  name: 'Deliver',
+  href: '#',
+  },
+  {
+  name: 'About',
+  href: '#',
+  },
+  {
+  name: 'Features',
+  href: '#',
+  },
+  {
+  name: 'Singup',
+  href: '#',
+  },
+];
 
 export const heroData = {
   title: `Order Products Fester Easier`,
@@ -10,7 +28,7 @@ export const heroData = {
 };
 
 export const aboutData = {
-  image: HandImage,
+  image: AboutImage,
   title: 'Find Out A Little More About us',
   subtitle: 'we are a company dedicated to the distribution of products by delivry to your home or to the place where you are',
 };
