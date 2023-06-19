@@ -12,7 +12,7 @@ const About = () => {
           </div>
           <div className='flex-1 xl:pr-12'>
             <h2 className='text-5xl pb-10 mt-10 xl:mt-0'>{title}</h2>
-            <p className=' mx-auto xl:mx-0'>{subtitle}</p>
+            <p className='mx-auto xl:mx-0'>{subtitle}</p>
           </div>
         </div>
       </div>
