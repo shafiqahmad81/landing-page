@@ -23,7 +23,7 @@ body {
     @apply font-bold text-[40px] xl:text-[80px] leading-[1.1]; 
   }
   p{
-    @apply text-xl xl:text-2xl
+    @apply text-lg xl:text-xl
   }
 }
 

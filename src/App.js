@@ -2,6 +2,7 @@ import Aos from "aos";
 import 'aos/dist/aos.css';
 import React from "react";
 import About from "./components/About";
+import Features from "./components/Features";
 import Hero from "./components/Hero";
 const App = () =>{
   Aos.init({
@@ -11,6 +12,7 @@ const App = () =>{
   return <div className=" overflow-hidden">
     <Hero />
     <About />
+    <Features />
   </div>;
 };
 
