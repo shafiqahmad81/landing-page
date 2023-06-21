@@ -2,7 +2,7 @@ import React from 'react';
 import { featuresData } from '../data';
 
 const Features = () => {
-  const {title, subtitle, list} = featuresData;
+  const {title, subtitle} = featuresData;
   return (
     <section className='my-[70px] xl:my-[150px]'>
       <div className=' container mx-auto'>
