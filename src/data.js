@@ -1,12 +1,12 @@
-import Feature1BgImage from '../src/assets/img/bg-1.jpg';
-import Feature2BgImage from '../src/assets/img/bg-2.jpg';
-import Feature3BgImage from '../src/assets/img/bg-3.jpg';
-import Feature4BgImage from '../src/assets/img/bg-4.jpg';
 import Computer1 from '../src/assets/img/computer-1.jpg';
 import Computer2 from '../src/assets/img/computer-2.jpg';
 import Computer3 from '../src/assets/img/computer-3.jpg';
 import Computer4 from '../src/assets/img/computer-4.jpg';
 import AboutImage from '../src/assets/img/computer.jpg';
+import Feature1BgImage from '../src/assets/img/image-1.jpg';
+import Feature2BgImage from '../src/assets/img/image-2.jpg';
+import Feature3BgImage from '../src/assets/img/image-3.jpg';
+import Feature4BgImage from '../src/assets/img/image-4.jpg';
 import ShopingImage from '../src/assets/img/shoping.png';
 
 export const NavicationData = [
