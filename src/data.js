@@ -1,3 +1,5 @@
+import { BsChatDotsFill } from 'react-icons/bs';
+import { FaGithub, FaInstagram, FaYoutube } from 'react-icons/fa';
 import Abator1Image from '../src/assets/img/abator-1.jpg';
 import Abator2Image from '../src/assets/img/abator-2.jpg';
 import Abator3Image from '../src/assets/img/abator-3.jpg';
@@ -13,6 +15,8 @@ import Feature3BgImage from '../src/assets/img/image-3.jpg';
 import Feature4BgImage from '../src/assets/img/image-4.jpg';
 import LogoImage from '../src/assets/img/logo.png';
 import ShopingImage from '../src/assets/img/shoping.png';
+
+
 
 export const NavicationData = [
   {
@@ -120,9 +124,72 @@ export const ctaData={
   subtitle: 'Get limited 1 week free try our features!',
   btntext1: 'Learn more',
   btntext2: 'Request Demo',
-}
+};
 
 export const footerData={
   logo: LogoImage,
-  address: 'Product texas,'
+  address: 'Product texas',
+  email: 'shafiqahmad081@gmail.com',
+  phone: '01610931039',
+  list1:[
+    {
+      name: 'Profile',
+      href: '#',
+    },
+    {
+      name: 'Features',
+      href: '#',
+    },
+    {
+      name: 'Careers',
+      href: '#',
+    },
+    {
+      name: 'Dw News',
+      href: '#',
+    },
+  ],
+  list2:[
+    {
+      name: 'Support',
+      href: '#',
+    },
+    {
+      name: 'Sign Up',
+      href: '#',
+    },
+    {
+      name: 'Guide',
+      href: '#',
+    },
+    {
+      name: 'Reports',
+      href: '#',
+    },
+    {
+      name: 'Q & A',
+      href: '#',
+    },
+  ],
+
+  sociallist:[
+    {
+      icon: <FaYoutube />,
+      href: '#'
+    },
+    {
+      icon: <FaInstagram />,
+      href: '#'
+    },
+    {
+      icon: <FaGithub />,
+      href: '#'
+    },
+  ]
+
+};
+
+export const copyrightDAta ={
+  text: '@ Product texas, 2022. All right reserved. Company Regestration Number:09375444',
+  icon: <BsChatDotsFill />
 }
