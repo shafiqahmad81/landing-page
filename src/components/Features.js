@@ -17,7 +17,7 @@ const Features = () => {
             return (
               <div className='w-full max-w-[530px] h-[360px] relative flex flex-col items-center justify-center xl:flex-row xl:justify-start mx-auto' key={index} data-aos='zoom-in' data-offset='100' data-aos-delay={delay}>
                 <div className=' xl:flex -skew-x-12 absolute top-0 right-0 -z-10'>
-                  { <img className='w-[530px] h-[360px] rounded-3xl' src={bgimage} alt='bgImage'/> }
+                  { <img className='w-[530px] xl:w-[450px] h-[360px] rounded-3xl' src={bgimage} alt='bgImage'/> }
                 </div>
                 <div className='max-w-[120px] px-5 xl:mr-7 xl:max-w-[230px]' data-aos='zoom-in-right' data-aos-delay={delay}>
                   <img src={image} alt='icon'/>

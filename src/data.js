@@ -1,3 +1,7 @@
+import Abator1Image from '../src/assets/img/abator-1.jpg';
+import Abator2Image from '../src/assets/img/abator-2.jpg';
+import Abator3Image from '../src/assets/img/abator-3.jpg';
+import Abator4Image from '../src/assets/img/abator-4.jpg';
 import Computer1 from '../src/assets/img/computer-1.jpg';
 import Computer2 from '../src/assets/img/computer-2.jpg';
 import Computer3 from '../src/assets/img/computer-3.jpg';
@@ -7,6 +11,7 @@ import Feature1BgImage from '../src/assets/img/image-1.jpg';
 import Feature2BgImage from '../src/assets/img/image-2.jpg';
 import Feature3BgImage from '../src/assets/img/image-3.jpg';
 import Feature4BgImage from '../src/assets/img/image-4.jpg';
+import LogoImage from '../src/assets/img/logo.png';
 import ShopingImage from '../src/assets/img/shoping.png';
 
 export const NavicationData = [
@@ -78,4 +83,46 @@ export const featuresData = {
       delay: '1000',
     },
   ]
+};
+export const testimonialData =[
+  {
+    image: Abator1Image,
+    name: 'Serena',
+    web: 'rana.com',
+    message: 'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis.',
+    delay: '300'
+  },
+  {
+    image: Abator2Image,
+    name: 'Natila',
+    web: 'natila.com',
+    message: 'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis.',
+    delay: '500'
+  },
+  {
+    image: Abator3Image,
+    name: 'Vebin',
+    web: 'vabin.com',
+    message: 'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis.',
+    delay: '700'
+  },
+  {
+    image: Abator4Image,
+    name: 'Armin',
+    web: 'rana.com',
+    message: 'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis.',
+    delay: '900'
+  },
+]
+
+export const ctaData={
+  title: 'Contact Us From Here',
+  subtitle: 'Get limited 1 week free try our features!',
+  btntext1: 'Learn more',
+  btntext2: 'Request Demo',
+}
+
+export const footerData={
+  logo: LogoImage,
+  address: 'Product texas,'
 }
