@@ -56,7 +56,7 @@ const Footer = () => {
               <ul className='flex justify-center gap-4'>
                 {sociallist.map((item, index) => {
                   return (
-                    <li className='w-16 h-16 bg-violet-700/30 rounded-full flex items-center justify-center hover:bg-pink-500 cursor-pointer transition-all' key={index}>
+                    <li className='w-12 h-12 bg-violet-700/30 rounded-full flex items-center justify-center hover:bg-pink-500 cursor-pointer transition-all' key={index}>
                       <a className='text-white text-xl hover:text-white' href={item.href}>
                         {item.icon}
                       </a>
