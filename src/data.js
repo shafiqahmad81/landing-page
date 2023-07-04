@@ -127,7 +127,7 @@ export const ctaData={
 };
 
 export const footerData={
-  logo: LogoImage,
+  logo: LogoImage ,
   address: 'Product texas',
   email: 'shafiqahmad081@gmail.com',
   phone: '01610931039',

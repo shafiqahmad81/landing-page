@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className=' xl:h-[900px] py-12 min-w-[320px] w-full'>
       <Header />
-      <div className=' container mx-auto h-full relative'>
+      <div className=' container mx-auto h-full relative px-10'>
         <div className=' flex flex-col xl:flex-row items-center h-full md:py-24'>
           <div className=' text-center xl:text-left xl:absolute'>
             <h1 className='xl:max-w-[700px] mb-6 lg:mb-12' data-aos='fade-down'data-aos-delay='400' >{title}</h1>

@@ -6,7 +6,7 @@ const Features = () => {
   const {title, subtitle ,list} = featuresData;
   return (
     <section className='my-[70px] xl:my-[150px]'>
-      <div className=' container mx-auto'>
+      <div className=' container mx-auto px-10'>
         <div className='text-center'>
           <h2 className='text-4xl mb-6 xl:mb-12' data-aos='fade-down' data-aos-delay='100'>{title}</h2>
           <p className='max-w-[585px] mx-auto mb-16 xl:mb-24' data-aos='fade-down' data-aos-delay='200'>{subtitle}</p>

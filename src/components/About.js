@@ -5,7 +5,7 @@ const About = () => {
   const {image, title, subtitle} = aboutData;
   return (
     <section className=' my-[70px] xl:mt-[100px]' data-aos='fade-up' data-aos-offset='350'>
-      <div className='container mx-auto'>
+      <div className='container mx-auto px-10'>
         <div className=' bg-pink-400/[15%] rounded-[50px] min-h-[560px] px-12  pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left xl:gap-14 xl:pb-0'>
           <div className=' flex-1' data-aos='zoom-in-left'>
             <img src={image} alt='HeroImage'/>

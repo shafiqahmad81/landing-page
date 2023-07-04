@@ -16,7 +16,7 @@ const TestimonialSlider = () => {
       {testimonialData.map((slide, index) => {
         const{ image, message, name, web} = slide;
         return (
-          <SwiperSlide key={index} className='bg-white rounded-[20px] border border-orange-700 xl:max-w-[645px] max-h-[330px] pt-[60px] px-35px flex item-center overflow-hidden'>
+          <SwiperSlide key={index} className='bg-white rounded-[20px] border border-orange-700 xl:max-w-[660px] max-h-[330px] pt-[60px] px-35px flex item-center overflow-hidden'>
             <img src={image} alt='Slide'/>
             <div>
               <div className='text-2xl bold'>{name}</div>
