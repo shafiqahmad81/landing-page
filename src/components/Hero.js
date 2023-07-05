@@ -14,7 +14,7 @@ const Hero = () => {
             <p className=' text-lg xl:max-w-[380px] mb-6 lg:mb-12'data-aos='fade-down'data-aos-delay='500' >{subtitle}</p>
             <button className='btn btn-primary  mb-8 xl:mb-0'data-aos='fade-down'data-aos-delay='700' >{btnText}</button>
           </div>
-          <div className='max-w-full w-[500px] xl:absolute xl:right-0 xl:bottom-16'data-aos='fade-up'data-aos-delay='700' >
+          <div className='max-w-full w-[500px] xl:absolute xl:right-10 xl:bottom-16'data-aos='fade-up'data-aos-delay='700' >
             <img className='' src= {image} alt=''/>
           </div>
         </div>

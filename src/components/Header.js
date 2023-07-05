@@ -9,7 +9,7 @@ const Header = () => {
   const [mobileNav, setMobileNav] = useState(false);
   return (
     <header className='mb-12 lg:mb-0 z-20 relative px-4 lg:px-0' data-aos='fade-down' data-aos-delay='1200' data-aos-duration='1000'>
-      <div className=' container mx-auto px-10'>
+      <div className=' container mx-auto px-2 md:px-10'>
       <div className='flex items-center justify-between'>
         <div className='flex items-center gap-x-[120px]'>
           <a href='index.html'>
